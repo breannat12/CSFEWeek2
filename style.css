@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    background-color: lightskyblue;
+    justify-content: center;
+    align-items: center;
+}
+#content {
+    padding: 40px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 20px;
+    flex-direction: column
+}
+
+#btn {
+    background-color: cadetblue;
+    color: white;
+    border: 0px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+#pokemonName {
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#imgDiv {
+    display: block;
+}
